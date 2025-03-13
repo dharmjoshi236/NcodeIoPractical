@@ -1,0 +1,26 @@
+{
+  "name": "invoice_generator_backend",
+  "version": "1.0.0",
+  "description": "This is the practical test for invoice generation using nodejs expressjs and mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "migrate": "npx sequelize-cli db:migrate --config config/config.js"
+  },
+  "author": "Dharm Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "moment": "^2.30.1",
+    "mysql2": "^3.13.0",
+    "nodemailer": "^6.10.0",
+    "puppeteer": "^24.4.0",
+    "sequelize": "^6.37.6",
+    "uuid": "^11.1.0",
+    "yup": "^1.6.1"
+  }
+}
