@@ -3,7 +3,7 @@
 ## 1️⃣ Clone the Repository
 ```sh
 git clone <repository_url>
-cd <your_project_directory>
+cd backend
 ```
 
 ---
@@ -79,7 +79,8 @@ Make sure you have the following installed:
 1. **Clone the repository:**
    ```sh
    git clone <repository-url>
-   cd <project-folder>
+   cd frontend
+   cd invoice_frontend
    ```
 
 2. **Install dependencies:**
